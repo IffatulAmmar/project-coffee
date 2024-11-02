@@ -421,7 +421,7 @@ footer {
     .menu-btn {
         position: fixed;
         margin-left: 87%;
-        margin-top: -10px;
+        margin-top: -3vh;
         cursor: pointer;
         width: 10vh;
     }
