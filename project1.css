@@ -31,7 +31,7 @@ nav .logo {
 }
 
 nav .logo img {
-    padding-top: 5px;
+    padding-top: 10px;
     width: 15vh;
 }
 
@@ -126,6 +126,7 @@ section:nth-child(1) {
     width: 70%;
     margin-left: 17%;
     margin-top: 10%;
+    margin-bottom: 10%;
     margin-right: 10%;
     color: #ffeedc;
     text-shadow: 3px 2px 1px black;
