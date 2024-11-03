@@ -579,7 +579,7 @@ footer {
 /* tablet device - low resolution*/
 @media only screen and (max-width:767px) {
     .menu-btn {
-    margin-left: 75%;
+    margin-left: 68%;
     }
     .content-wrapper h1 {
         margin-top: 25vh;
