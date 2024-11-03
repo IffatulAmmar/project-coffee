@@ -126,7 +126,7 @@ section:nth-child(1) {
     width: 70%;
     margin-left: 17%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     margin-right: 10%;
     color: #ffeedc;
     text-shadow: 3px 2px 1px black;
@@ -161,6 +161,14 @@ section:nth-child(1) {
     transition: all 0.5s ease;
     border-radius: 50px;
 }
+.hoverbtn-learnmore:hover{
+    background-color: #3f3131;
+    border: 2px solid #fff8ea;
+    color: #fff8ea;
+    transition: all 0.5s ease;
+    border-radius: 50px;
+}
+
 
 #about {
     margin-top: 110px;
@@ -204,8 +212,11 @@ section:nth-child(1) {
     border-radius: 20px;
 }
 
-.aboutus div {
-    width: 50%;
+.aboutus div:nth-child(1){
+    width: 40%;
+}
+.aboutus div:nth-child(2){
+    width: 60%;
 }
 
 .aboutus img {
@@ -276,6 +287,19 @@ section:nth-child(1) {
     padding: 5px 10px;
     border:2px solid #3f3131;
     width: 70%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.learnmore {
+    display: block;
+    margin: auto auto 10% 65%;
+    background-color: #fff8ea;
+    color: #3f3131;
+    font-size: 1.8vmin;
+    padding: 5px 10px;
+    border:2px solid #3f3131;
+    width: 20%;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -539,21 +563,29 @@ footer {
         width: 100%;
     }
     .aboutus img{
-        width: 94%;
-        padding: 3%;
+        width: 200%;
+        margin-left: -55%;
+        margin-top: 5%;
     }
-    .aboutus .content-wrapper {
-        width: fit-content;
-        padding: 5%;
+    .aboutus .content-wrapper-desc p {
+        width: 100%;
         margin: 0;
     }
     .aboutus .content-wrapper p{
         margin: 0;
     }
+    .learnmore{
+        font-size: 3vmin;
+        width: 40%;
+        margin-left: 60%;
+    }
     .menu div {
         width: 48%;
     }
     .order{
+        font-size: 2vmin;
+    }
+    .learnmore{
         font-size: 2vmin;
     }
     .form h2 {
@@ -592,6 +624,9 @@ footer {
         margin-top: 3vh;
     }
     .order{
+        font-size: 2.5vmin;
+    }
+    .learnmore{
         font-size: 2.5vmin;
     }
     .sec4{
