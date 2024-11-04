@@ -438,7 +438,41 @@ footer {
     color: #fff;
     font-size: 2vmin;
 }
+.top {
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 1.5%;
+  font-family: sans-serif;
+  color: #3f3131;
+  background: #fff8ea;
+  border: #3f3131 solid;
+  border-radius: 100px;
+  white-space: nowrap;
+  margin-left: 93%;
+}
 
+#preloader {
+    background: #3f3131 url(img/paruciouslogo.gif) no-repeat center center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 3s ease-in-out; /* Slower and smoother transition */
+    visibility: visible;
+}
+
+#preloader.fade-out {
+    opacity: 0;
+    visibility: hidden;
+}
 
 
 
@@ -669,6 +703,10 @@ footer {
     .logocontact p {
         font-size: 3vmin;
     }  
+    .top {
+        margin-left: 85%;
+        padding: 3%;
+    }
 }
 
 
