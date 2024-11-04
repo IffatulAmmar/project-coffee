@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
+
         <!-- Alpha.ly Version 0.1 | Development Version -->
     <div class="container">
     <div class="col-xs-12">
@@ -54,6 +56,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- This pre-lander was created by Brandon Nilsson -->
     <!-- You're welcome to edit, reproduce and change this template as long as original contributation stays present on the website at all times.  -->
+
+    <script>
+        var loader = document.getElementById("preloader");
+    
+        window.addEventListener("load", function(){
+            loader.classList.add("fade-out"); // Add fade-out class to start the smooth transition
+            setTimeout(function(){
+                loader.style.display = "none"; // Fully hide the preloader after transition ends
+            }, 3000); // Match this to the CSS transition duration
+        });
+    </script>
+
 </body>
 
 </html>

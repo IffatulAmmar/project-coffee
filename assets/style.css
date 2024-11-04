@@ -8,6 +8,21 @@ body {
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
+#preloader {
+    background: #3f3131 url(../img/paruciouslogo.gif) no-repeat center center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 3s ease-in-out; /* Slower and smoother transition */
+    visibility: visible;
+}
+
+#preloader.fade-out {
+    opacity: 0;
+    visibility: hidden;
+}
 
 @-webkit-keyframes Gradient {
 	0% {
