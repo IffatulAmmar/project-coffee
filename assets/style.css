@@ -101,6 +101,7 @@ h6 {
 	  border-radius:190px;
       padding-right: 1%;
       margin-top: 7vh;
+      max-width: 200px;
   }
 
   .linktree {

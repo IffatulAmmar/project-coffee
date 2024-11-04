@@ -331,8 +331,6 @@ section:nth-child(1) {
     text-align: center;
     font-size: 2.5vmin;
     text-decoration: underline;
-    margin-top: 5%;
-    margin-bottom: 3%;
 }
 
 #info{
@@ -481,7 +479,7 @@ footer {
 }
 
 .shake {
-	animation: shake-animation 4.72s ease infinite;
+	animation: shake-animation 4s ease infinite;
 	transform-origin: 50% 50%;
   }
   @keyframes shake-animation {
