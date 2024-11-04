@@ -99,6 +99,7 @@ h6 {
 	  -moz-border-radius:190px; 
 	  -webkit-border-radius:190px; 
 	  border-radius:190px;
+      padding-right: 1%;
   }
 
   .linktree {
