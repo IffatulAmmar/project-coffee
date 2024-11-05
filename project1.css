@@ -716,7 +716,7 @@ footer {
         color: black;
         text-decoration: none;
         display: block;
-        margin-top: -10vh;
+        margin-top: -20vh;
     }
     .dropdown li:nth-child(1){
         margin-top: 10vh; 
