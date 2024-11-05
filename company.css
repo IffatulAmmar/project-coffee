@@ -261,6 +261,14 @@ section:nth-child(1) {
     align-items:center;
     justify-content: space-around;
     margin-top: 10%;
+    margin: 10% 10% 0 10%;
+}
+.aboutus-head div:nth-child(1) {
+    margin-top: 5vh;
+    width: 60%;
+}
+.aboutus-head div:nth-child(2) {
+    width: 100%;
 }
 
 /* .aboutusall{
