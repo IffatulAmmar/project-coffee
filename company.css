@@ -689,9 +689,10 @@ footer {
         align-items: center;
         height: auto;
         margin-top: 10px;
+        margin-bottom: -20%;
     }
     .content-fit div{
-        width: 35%;
+        width: 50%;
     }
     .aboutus {
         flex-direction: column;
