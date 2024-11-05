@@ -694,10 +694,6 @@ footer {
     .aboutus-head div:nth-child(2) {
         width: 85vw;
     }
-
-    .aboutus{
-        min-height: 100vh;
-    }
     
     .aboutus div{
         width: 100%;
@@ -705,6 +701,7 @@ footer {
     .aboutus div:nth-child(1) {
         width: 80%;
         min-height: 40vh;
+        margin-top: 2vh;
     }
     .aboutus div:nth-child(2) {
         width: 80%;
