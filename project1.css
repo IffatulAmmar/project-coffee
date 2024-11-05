@@ -716,7 +716,7 @@ footer {
         color: black;
         text-decoration: none;
         display: block;
-        margin-top: -15vh;
+        margin-top: -20vh;
     }
     .dropdown li:nth-child(1){
         margin-top: 17vh; 
@@ -726,7 +726,7 @@ footer {
         margin-bottom: 1vh;
     }
     .dropdown-content{
-        max-height: 200px;
+        max-height: 100px;
     }
     
     /* Display the dropdown on hover */
