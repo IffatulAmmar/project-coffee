@@ -789,7 +789,7 @@ footer {
         font-size: 2.5vmin;
     }
     .aboutus{
-        min-height: 20vh;
+        min-height:-100vh;
     }
     .aboutus-head div:nth-child(1) {
         width: 70%;
