@@ -716,13 +716,13 @@ footer {
         color: black;
         text-decoration: none;
         display: block;
-        margin-top: -25vh;
+        margin-top: -26vh;
     }
     .dropdown li:nth-child(1){
-        margin-top: -22vh; 
+        margin-top: -23vh; 
     }
     .dropdown li:nth-child(2){
-        margin-top: 25vh; 
+        margin-top: 26vh; 
         margin-bottom: 1vh;
     }
     .dropdown-content{
