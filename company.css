@@ -678,10 +678,17 @@ footer {
     }
     .aboutus-head{
         flex-direction: column;
-        margin-top: 15vh;
+        margin-top: 10vh;
     }
     .aboutus-head div:nth-child(1) {
-        width: 50%;
+        width: 40%;
+    }
+    .aboutus-head div:nth-child(2) {
+        width: 85vw;
+    }
+
+    .aboutus{
+        min-height: 100vh;
     }
     
     .aboutus div{
@@ -733,7 +740,7 @@ footer {
         margin-bottom: 10%;
     }
     .content-wrapper-desc p {
-        font-size: 2.5vmin;
+        font-size: 2.8vmin;
         text-align: justify;
         line-height: 2;
         width: 90%;
@@ -775,12 +782,11 @@ footer {
     }
     .aboutus-head div:nth-child(1) {
         width: 70%;
-        margin-top: -5vh;
+        margin-top: 3vh ;
     }
     .aboutus-head div:nth-child(2) p{
         font-size: 3.5vmin;
         width: 80vw;
-        margin-left: -4vh;
     }
     .aboutus div:nth-child(1) {
         width: 80%;
