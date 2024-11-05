@@ -774,10 +774,13 @@ footer {
         font-size: 2.5vmin;
     }
     .aboutus-head div:nth-child(1) {
-        width: 80%;
+        width: 70%;
+        margin-top: -5vh;
     }
     .aboutus-head div:nth-child(2) p{
         font-size: 3.5vmin;
+        width: 80vw;
+        margin-left: -4vh;
     }
     .aboutus div:nth-child(1) {
         width: 80%;
@@ -785,9 +788,11 @@ footer {
     }
     .content-wrapper-visi p{
         margin-top: 3vh;
-        padding-bottom: 1vh;
         font-size: 3.5vmin;
         padding: 0 4% 4% 4%;
+    }
+    .content-wrapper-visi{
+        padding: 2% 4% 7% 4%;;
     }
 
     .content-wrapper-misi p{
