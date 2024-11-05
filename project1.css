@@ -726,7 +726,7 @@ footer {
         margin-bottom: 1vh;
     }
     .dropdown-content{
-        max-height: 200px;
+        max-height: 400px;
     }
     
     /* Display the dropdown on hover */
