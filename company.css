@@ -989,6 +989,11 @@ footer {
   overflow: hidden;
   border-radius: 25px;
 }
+.slide-content h1{
+
+  text-align: center;
+  margin: 3vh 0;
+}
 .card{
   border-radius: 25px;
   background-color: #fff8ea;
