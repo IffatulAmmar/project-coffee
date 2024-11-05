@@ -780,6 +780,9 @@ footer {
     .learnmore{
         font-size: 2.5vmin;
     }
+    .aboutus{
+        min-height: 50vh;
+    }
     .aboutus-head div:nth-child(1) {
         width: 70%;
         margin-top: 3vh ;
