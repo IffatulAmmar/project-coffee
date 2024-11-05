@@ -222,7 +222,7 @@ section:nth-child(1) {
 
 .content-fit {
     width: 100%;
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .content-fit:nth-child(2) {
@@ -1094,6 +1094,10 @@ footer {
 }
 .swiper-pagination-bullet-active{
     background-color: #3f3131;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Rata tengah */
 }
 :root {
     --swiper-theme-color: #3f3131; /* Ubah ke warna yang Anda inginkan */
