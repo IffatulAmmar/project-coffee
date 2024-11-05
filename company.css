@@ -853,13 +853,13 @@ footer {
         width: 12vh;
     }
     .nav-links {
-        height: 670px;
+        height: 400px;
     }
     .nav-links li {
         margin-top: 50px;
     }
     .nav-links li:nth-child(1) {
-        margin-top: 250px;
+        margin-top: 130px;
     }
     .menu-btn {
         margin-left: 82%;
