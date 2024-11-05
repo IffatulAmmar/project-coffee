@@ -719,14 +719,14 @@ footer {
         margin-top: -20vh;
     }
     .dropdown li:nth-child(1){
-        margin-top: 10vh; 
+        margin-top: 5vh; 
     }
     .dropdown li:nth-child(2){
         margin-top: 10vh; 
         margin-bottom: 1vh;
     }
     .dropdown-content{
-        max-height: 100px;
+        max-height: 200px;
     }
     
     /* Display the dropdown on hover */
