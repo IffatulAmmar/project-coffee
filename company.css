@@ -710,6 +710,7 @@ footer {
     }
     .content-wrapper-visi{
         width: 100%;
+        margin-top: 5vh;
     }
     .learnmore{
         font-size: 3vmin;
@@ -779,7 +780,7 @@ footer {
     }
     .aboutus div:nth-child(1) {
         width: 80%;
-        min-height: 20vh;
+        min-height: 22vh;
     }
     .content-wrapper-visi p{
         margin-top: 3vh;
