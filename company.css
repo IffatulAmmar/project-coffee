@@ -674,7 +674,7 @@ footer {
     }
     .aboutus {
         flex-direction: column;
-        min-height: 50vh;
+        max-height: 70vh;
     }
     .aboutus-head{
         flex-direction: column;
